@@ -1,59 +1,278 @@
-# Privacy Policy for Juwa Vault
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Juwa Vault — Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --sky-top: #5fc8f5;
+    --sky-bottom: #aee9ff;
+    --cloud: #ffffff;
+    --ink: #243b53;
+    --ink-soft: #486581;
+    --gold: #f6b93b;
+    --gold-deep: #e58e26;
+    --pipe: #6ab04c;
+    --pipe-dark: #4e8b37;
+    --card: #fffdf7;
+    --shadow: rgba(36, 59, 83, 0.18);
+  }
 
-**Last updated:** [July 04, 2026]
+  * { margin: 0; padding: 0; box-sizing: border-box; }
 
-Wild Buffalo Games ("we," "us," or "our") operates the mobile game **Juwa Vault** (the "Game"). This Privacy Policy explains how we handle information in connection with your use of the Game.
+  body {
+    font-family: 'Nunito', sans-serif;
+    color: var(--ink);
+    background: linear-gradient(180deg, var(--sky-top) 0%, var(--sky-bottom) 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
 
-By downloading or using Juwa Vault, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use the Game.
+  .cloud {
+    position: fixed;
+    background: var(--cloud);
+    border-radius: 50%;
+    opacity: 0.85;
+    filter: blur(0.5px);
+    z-index: 0;
+    box-shadow: 40px 10px 0 -6px var(--cloud), 80px 0 0 -10px var(--cloud);
+  }
+  .cloud.a { width: 70px; height: 70px; top: 12%; left: -120px; animation: drift 38s linear infinite; }
+  .cloud.b { width: 50px; height: 50px; top: 34%; left: -120px; animation: drift 52s linear infinite; animation-delay: -10s; }
+  .cloud.c { width: 90px; height: 90px; top: 70%; left: -160px; animation: drift 60s linear infinite; animation-delay: -25s; }
 
-## Summary
+  @keyframes drift { to { transform: translateX(calc(100vw + 260px)); } }
 
-Juwa Vault is a simple, offline single-player game. **We do not collect, store, transmit, or share any personal information.** The Game runs entirely on your device and does not require an internet connection to play.
+  .wrap {
+    position: relative;
+    z-index: 2;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 56px 24px 80px;
+  }
 
-## Information We Collect
+  header { text-align: center; margin-bottom: 40px; }
 
-We collect **no personal information**. Specifically, the Game does not collect:
+  .badge {
+    display: inline-block;
+    background: var(--gold);
+    color: #fff;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+    font-size: 0.78rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 999px;
+    box-shadow: 0 4px 0 var(--gold-deep);
+    margin-bottom: 20px;
+  }
 
-- Your name, email address, phone number, or contact details
-- Your location data
-- Your device identifiers, advertising IDs, or contacts
-- Account or login information (the Game has no accounts or sign-in)
-- Photos, files, or other content from your device
+  h1 {
+    font-family: 'Baloo 2', cursive;
+    font-weight: 800;
+    font-size: clamp(2.2rem, 7vw, 3.4rem);
+    line-height: 1.05;
+    color: #fff;
+    text-shadow: 0 4px 0 var(--gold-deep), 0 7px 12px var(--shadow);
+    margin-bottom: 8px;
+  }
 
-Any game data, such as your high score or in-game settings, is stored **locally on your device only**. We never have access to this data, and it is removed if you uninstall the Game.
+  .studio { font-size: 0.95rem; color: var(--ink-soft); margin-top: 4px; }
+  .updated { font-size: 0.9rem; color: var(--ink); opacity: 0.8; font-weight: 600; margin-top: 6px; }
 
-## Offline Functionality
+  .card {
+    background: var(--card);
+    border-radius: 22px;
+    padding: 36px 34px;
+    box-shadow: 0 10px 30px var(--shadow);
+    border: 3px solid #fff;
+  }
 
-Juwa Vault is designed to work fully offline. The Game does not connect to the internet, does not communicate with our servers, and does not send any data off your device.
+  .summary-box {
+    background: #fff7e6;
+    border: 2px solid var(--gold);
+    border-radius: 16px;
+    padding: 18px 20px;
+    margin-bottom: 28px;
+    font-weight: 600;
+    color: var(--ink);
+  }
 
-## Third-Party Services
+  h2 {
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--ink);
+    margin: 30px 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  h2:first-of-type { margin-top: 0; }
+  h2 .dot {
+    width: 13px; height: 13px; border-radius: 50%;
+    background: var(--gold);
+    box-shadow: 0 2px 0 var(--gold-deep);
+    flex: none;
+  }
 
-Juwa Vault does not integrate any third-party services such as advertising networks, analytics providers, or social media platforms. As a result, no third party collects information about you through the Game.
+  p { color: var(--ink-soft); margin-bottom: 14px; font-size: 1rem; }
+  p.lead { color: var(--ink); }
 
-> **Note for the developer:** If you later add ads (e.g., Google AdMob), analytics (e.g., Firebase, Unity Analytics), crash reporting, or in-app purchases, those services *do* collect data, and this section must be updated to disclose each provider and link to their privacy policies. The "Summary" and "Information We Collect" sections would also need to change.
+  ul { margin: 0 0 16px 22px; color: var(--ink-soft); }
+  li { margin-bottom: 7px; }
 
-## Permissions
+  strong { color: var(--ink); }
 
-Juwa Vault does not request access to sensitive device features such as your camera, microphone, location, contacts, or storage beyond what is needed to save your local game progress.
+  .note {
+    background: #eef6ff;
+    border-left: 4px solid var(--sky-top);
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin: 18px 0;
+    font-size: 0.93rem;
+    color: var(--ink-soft);
+  }
 
-## Children's Privacy
+  a { color: var(--pipe-dark); font-weight: 700; }
 
-Juwa Vault is suitable for general audiences. Because the Game does not collect any personal information from anyone, it does not knowingly collect personal information from children under the age of 13 (or the equivalent minimum age in your jurisdiction). If you believe a child has somehow provided us with personal information, please contact us so we can address it.
+  .disclaimer {
+    margin-top: 28px;
+    padding-top: 18px;
+    border-top: 2px dashed #e8e0cf;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    font-style: italic;
+  }
 
-## Data Security
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 26px;
+  }
+  .links a {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 2px solid var(--gold);
+    padding-bottom: 2px;
+  }
+  .links a:hover { color: var(--gold-deep); }
 
-Because we do not collect or transmit any personal data, there is no personal information held by us that could be exposed. Any locally stored game data remains on your device and is protected by your device's own security measures.
+  footer {
+    text-align: center;
+    margin-top: 32px;
+    color: var(--ink-soft);
+    font-size: 0.85rem;
+  }
+  footer .bird { font-size: 1.6rem; display: block; margin-bottom: 8px; }
+</style>
+</head>
+<body>
+  <div class="cloud a"></div>
+  <div class="cloud b"></div>
+  <div class="cloud c"></div>
 
-## Changes to This Privacy Policy
+  <div class="wrap">
+    <header>
+      <span class="badge">Privacy Policy</span>
+      <h1>Juwa Vault</h1>
+      <p class="studio">by Wild Buffalo Games</p>
+      <p class="updated">Last updated: [July 04, 2026]</p>
+    </header>
 
-We may update this Privacy Policy from time to time, for example if we add new features to the Game. When we do, we will revise the "Last updated" date at the top of this page. We encourage you to review this Privacy Policy periodically. Continued use of the Game after changes take effect constitutes acceptance of the updated policy.
+    <section class="card">
+      <p class="lead">Wild Buffalo Games ("we," "us," or "our") operates the mobile game
+      <strong>Juwa Vault</strong> (the "Game"). This Privacy Policy explains how we handle
+      information in connection with your use of the Game.</p>
+      <p>By downloading or using Juwa Vault, you agree to the practices described in this
+      Privacy Policy. If you do not agree, please do not use the Game.</p>
 
-## Contact Us
+      <div class="summary-box">
+        Juwa Vault is a simple, offline single-player game. <strong>We do not collect, store,
+        transmit, or share any personal information.</strong> The Game runs entirely on your
+        device and does not require an internet connection to play.
+      </div>
 
-If you have any questions about this Privacy Policy, please contact us:
+      <h2><span class="dot"></span>Information We Collect</h2>
+      <p>We collect <strong>no personal information</strong>. Specifically, the Game does not collect:</p>
+      <ul>
+        <li>Your name, email address, phone number, or contact details</li>
+        <li>Your location data</li>
+        <li>Your device identifiers, advertising IDs, or contacts</li>
+        <li>Account or login information (the Game has no accounts or sign-in)</li>
+        <li>Photos, files, or other content from your device</li>
+      </ul>
+      <p>Any game data, such as your high score or in-game settings, is stored
+      <strong>locally on your device only</strong>. We never have access to this data, and it
+      is removed if you uninstall the Game.</p>
 
-**Wild Buffalo Games**
+      <h2><span class="dot"></span>Offline Functionality</h2>
+      <p>Juwa Vault is designed to work fully offline. The Game does not connect to the
+      internet, does not communicate with our servers, and does not send any data off your device.</p>
 
----
+      <h2><span class="dot"></span>Third-Party Services</h2>
+      <p>Juwa Vault does not integrate any third-party services such as advertising networks,
+      analytics providers, or social media platforms. As a result, no third party collects
+      information about you through the Game.</p>
+      <div class="note">
+        <strong>Note for the developer:</strong> If you later add ads (e.g., Google AdMob),
+        analytics (e.g., Firebase, Unity Analytics), crash reporting, or in-app purchases,
+        those services <em>do</em> collect data, and this section must be updated to disclose
+        each provider and link to their privacy policies. The summary and "Information We
+        Collect" sections would also need to change.
+      </div>
 
-*This Privacy Policy is provided as a general template and does not constitute legal advice. For compliance with specific laws (such as GDPR, CCPA, COPPA, or Google Play and Apple App Store requirements), please consult a qualified attorney.*
+      <h2><span class="dot"></span>Permissions</h2>
+      <p>Juwa Vault does not request access to sensitive device features such as your camera,
+      microphone, location, contacts, or storage beyond what is needed to save your local game progress.</p>
+
+      <h2><span class="dot"></span>Children's Privacy</h2>
+      <p>Juwa Vault is suitable for general audiences. Because the Game does not collect any
+      personal information from anyone, it does not knowingly collect personal information from
+      children under the age of 13 (or the equivalent minimum age in your jurisdiction). If you
+      believe a child has somehow provided us with personal information, please contact us so we
+      can address it.</p>
+
+      <h2><span class="dot"></span>Data Security</h2>
+      <p>Because we do not collect or transmit any personal data, there is no personal
+      information held by us that could be exposed. Any locally stored game data remains on your
+      device and is protected by your device's own security measures.</p>
+
+      <h2><span class="dot"></span>Changes to This Privacy Policy</h2>
+      <p>We may update this Privacy Policy from time to time, for example if we add new features
+      to the Game. When we do, we will revise the "Last updated" date at the top of this page. We
+      encourage you to review this Privacy Policy periodically. Continued use of the Game after
+      changes take effect constitutes acceptance of the updated policy.</p>
+
+      <h2><span class="dot"></span>Contact Us</h2>
+      <p>If you have any questions about this Privacy Policy, please contact us:</p>
+      <p><strong>Wild Buffalo Games</strong><br>
+      Email: <a href="mailto:[your-support-email@example.com]">[your-support-email@example.com]</a><br>
+      [Optional: mailing address]</p>
+
+      <p class="disclaimer">This Privacy Policy is provided as a general template and does not
+      constitute legal advice. For compliance with specific laws (such as GDPR, CCPA, COPPA, or
+      Google Play and Apple App Store requirements), please consult a qualified attorney.</p>
+    </section>
+
+
+    <footer>
+      <span class="bird">🐤</span>
+      © <span id="year"></span> Wild Buffalo Games. All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
