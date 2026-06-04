@@ -1,1 +1,59 @@
+# Privacy Policy for Juwa Vault
 
+**Last updated:** [July 04, 2026]
+
+Wild Buffalo Games ("we," "us," or "our") operates the mobile game **Juwa Vault** (the "Game"). This Privacy Policy explains how we handle information in connection with your use of the Game.
+
+By downloading or using Juwa Vault, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use the Game.
+
+## Summary
+
+Juwa Vault is a simple, offline single-player game. **We do not collect, store, transmit, or share any personal information.** The Game runs entirely on your device and does not require an internet connection to play.
+
+## Information We Collect
+
+We collect **no personal information**. Specifically, the Game does not collect:
+
+- Your name, email address, phone number, or contact details
+- Your location data
+- Your device identifiers, advertising IDs, or contacts
+- Account or login information (the Game has no accounts or sign-in)
+- Photos, files, or other content from your device
+
+Any game data, such as your high score or in-game settings, is stored **locally on your device only**. We never have access to this data, and it is removed if you uninstall the Game.
+
+## Offline Functionality
+
+Juwa Vault is designed to work fully offline. The Game does not connect to the internet, does not communicate with our servers, and does not send any data off your device.
+
+## Third-Party Services
+
+Juwa Vault does not integrate any third-party services such as advertising networks, analytics providers, or social media platforms. As a result, no third party collects information about you through the Game.
+
+> **Note for the developer:** If you later add ads (e.g., Google AdMob), analytics (e.g., Firebase, Unity Analytics), crash reporting, or in-app purchases, those services *do* collect data, and this section must be updated to disclose each provider and link to their privacy policies. The "Summary" and "Information We Collect" sections would also need to change.
+
+## Permissions
+
+Juwa Vault does not request access to sensitive device features such as your camera, microphone, location, contacts, or storage beyond what is needed to save your local game progress.
+
+## Children's Privacy
+
+Juwa Vault is suitable for general audiences. Because the Game does not collect any personal information from anyone, it does not knowingly collect personal information from children under the age of 13 (or the equivalent minimum age in your jurisdiction). If you believe a child has somehow provided us with personal information, please contact us so we can address it.
+
+## Data Security
+
+Because we do not collect or transmit any personal data, there is no personal information held by us that could be exposed. Any locally stored game data remains on your device and is protected by your device's own security measures.
+
+## Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time, for example if we add new features to the Game. When we do, we will revise the "Last updated" date at the top of this page. We encourage you to review this Privacy Policy periodically. Continued use of the Game after changes take effect constitutes acceptance of the updated policy.
+
+## Contact Us
+
+If you have any questions about this Privacy Policy, please contact us:
+
+**Wild Buffalo Games**
+
+---
+
+*This Privacy Policy is provided as a general template and does not constitute legal advice. For compliance with specific laws (such as GDPR, CCPA, COPPA, or Google Play and Apple App Store requirements), please consult a qualified attorney.*
